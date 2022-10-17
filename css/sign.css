@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-card__sign-up{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/sign_up.png) no-repeat;
+    background-size: cover;
+    height: 830px;
+    
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 85px;
+    margin-right: 82px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.nav{
+
+    display: flex;
+}
+
+.nav a{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #313131;
+    text-decoration: none;
+}
+
+.home{
+    margin-right: 39px;
+
+
+}
+
+.sign{
+    width: 86px;
+    height: 27px;
+    margin-left: 40px;
+    margin-right: 28px;
+    background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+
+
+}
+
+.sign p{
+    color: #FFFFFF;  
+    text-align: center;    
+    letter-spacing: 0.5px;
+}
+
+
+.forms{
+    max-width: 406px;
+    margin: 0 auto;
+    padding-top: 283px;
+}
+
+
+
+
+.btn{
+    width: 406px;
+    height: 46px;   
+    background: #FAFAFA;
+    opacity: 0.8;
+    margin-bottom: 28px;
+}
+.btn button, input{
+    border: none;
+}
+.btn button{
+    background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+    width: 93px;
+    height: 26px;
+    margin: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 9px;
+    letter-spacing: 1px;
+    color: #FAFAFA;
+    transform: rotate(0.48deg);
+}
+input{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #313131;
+    opacity: 0.7;
+}
+input:active{
+    outline: none;
+}
+
+.sign-enter{
+    background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    width: 86px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+    line-height: 15px;
+}
